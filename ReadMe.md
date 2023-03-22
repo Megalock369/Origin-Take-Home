@@ -19,15 +19,15 @@ This project refers to automated interface tests (end-2-end) that uses Cypress a
 ## Cypress and plugins installation
 
 ## Installation
-Make sure you have Node.js and npm installed.
+Make sure you have Node.js and npm installed.  
 To install the project, first clone the repository from GitHub:
 1. git clone https://github.com/Megalock369/Origin-Take-Home
 
-2. Run the following command to install the project dependencies:
+2. Run the following command to install the project dependencies:  
 npm install
 
-3. To install the plugins run following commands:
-npm i -D @cypress/grep
+3. To install the plugins run following commands:  
+npm i -D @cypress/grep  
 npm install --save-dev mochawesome
 
 ---
