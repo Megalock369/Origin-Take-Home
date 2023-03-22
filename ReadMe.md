@@ -1,15 +1,16 @@
 # Origin - Take-Home Assignment
-
+# Cypress Project
 ## About
 This project refers to automated interface tests (end-2-end) that uses Cypress as a framework. This repository contains test cases for Buy a House page.
 
-## Frameworks
+## Frameworks and Plugins
  - [Cypress](https://www.cypress.io/)
- - [Cypress-Grep (Tags)](https://github.com/cypress-io/cypress-grep)
+ - [Cypress-Grep (Tags)](https://github.com/cypress-io/cypress/tree/develop/npm/grep)
  - [Cypress-mochawesome-report-generator](https://github.com/adamgruber/mochawesome-report-generator)
 
 ---
-## What I use to create these tests?
+
+## Versions
  - Node v18.15.0
  - Cypress 12.8.1
 
@@ -17,21 +18,25 @@ This project refers to automated interface tests (end-2-end) that uses Cypress a
 
 ## Cypress and plugins installation
 
-1. Abra o terminal, acesse o diretório desejado, copie e cole o comando abaixo:
-```bash
-git clone git@github.com:GamersClub/csgo-automated-tests.git
-```
+## Installation
+Make sure you have Node.js and npm installed.
+To install the project, first clone the repository from GitHub:
+1. git clone https://github.com/Megalock369/Origin-Take-Home
 
-2. Agora acesse este diretório copiando e colando o comando abaixo:
-```bash
-cd "csgo-automated-tests"
-```
-
-3. Instale as dependências rodando o comando abaixo:
-```bash
+2. Run the following command to install the project dependencies:
 npm install
-```
-Pronto! Será feito o download e instalação do Cypress em sua máquina. Para se certificar de que deu tudo certo, execute o comando na raiz do projeto:
+
+3. To install the plugins run following commands:
+npm i -D @cypress/grep
+npm install --save-dev mochawesome
+
+---
+
+## Running the Tests
+To run the tests, run the following command in your terminal:
+
+
+
 ```bash
 npm run cy:open
 ```
