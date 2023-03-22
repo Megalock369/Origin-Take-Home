@@ -20,6 +20,9 @@ This project refers to automated interface tests (end-2-end) that uses Cypress a
 
 ## Installation
 Make sure you have Node.js and npm installed.  
+- Cypress must be version 12 or higher. You can update your cypress version by running this command in cypress folder  
+npm install --save-dev cypress  
+
 To install the project, first clone the repository from GitHub:
 1. git clone https://github.com/Megalock369/Origin-Take-Home
 
