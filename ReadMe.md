@@ -33,23 +33,23 @@ npm install --save-dev mochawesome
 ---
 
 ## Running the Tests
-There are diferent commands to use in your terminal for each type of test:
-To run the tests with the browser open:  
+There are diferent commands to use in your terminal for each type of test:  
+- To run the tests with the browser open:  
 npm run cy:open
 
-To run the tests with the browser open with Width=410 and Height=860:  
+- To run the tests with the browser open with Width=410 and Height=860:  
 npm run cy:open:mobile
 
-To run the tests headlessly:  
+- To run the tests headlessly:  
 npm run test
 
-To run the tests headlessly with Width=410 and Height=860:  
+- To run the tests headlessly with Width=410 and Height=860:  
 npm run test:mobile
 
-To run Tags tests you can use one of these:  
+- To run Tags tests you can use one of these:  
 npx cypress run --env grepTags=@date
 npx cypress run --env grepTags=@money
 npx cypress run --env grep="money; date"
 
-To run tests with reports:  
+- To run tests with reports:  
 npx cypress run --reporter mochawesome
