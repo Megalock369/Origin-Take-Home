@@ -47,8 +47,8 @@ npm run test
 npm run test:mobile
 
 - To run Tags tests you can use one of these:  
-npx cypress run --env grepTags=@date
-npx cypress run --env grepTags=@money
+npx cypress run --env grepTags=@date  
+npx cypress run --env grepTags=@money  
 npx cypress run --env grep="money; date"
 
 - To run tests with reports:  
